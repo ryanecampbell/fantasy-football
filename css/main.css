@@ -1,3 +1,39 @@
-p {
-    background-color: green;
+body {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+}
+.nav-bar {
+    background-color: #233237;
+    border-style: solid;
+    border-color: #233237;
+    border-radius: 25px;
+    text-align: center;
+    font-size:20px;
+}
+.nav-bar button {
+    background-color: #233237;
+    background: none;
+    border: 0;
+    box-shadow:none;
+    border-color: #233237;
+    border-radius: 0px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav-bar button:not(:last-child) {
+    border-right: none; /* Prevents double borders */
+}
+
+.nav-bar:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.nav-bar button:hover {
+    background-color: #182225;
 }
