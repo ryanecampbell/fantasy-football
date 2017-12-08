@@ -1,0 +1,1 @@
+var domain = "https://api.mysportsfeeds.com/v1.1/pull/nfl/";
