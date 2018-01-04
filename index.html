@@ -12,22 +12,27 @@
     <body>
         <div class="nav-bar">
             <ul>
-                <button onclick="getTeam('hi')">Home</button>
-                <button>Teams</button>
-                <button>Players</button>
-                <button>Standings</button>
-                <button>Schedule</button>
+                <button onclick="showDiv('home')">Home</button>
+                <button onclick="showDiv('teams')">Teams</button>
+                <button onclick="showDiv('players')">Players</button>
+                <button onclick="showDiv('standings')">Standings</button>
+                <button onclick="showDiv('schedule')">Schedule</button>
             </ul>
         </div>
-        <div class="home">
+        <div id="home" class="main-body">
+            home
         </div>
-        <div class="teams">
+        <div id="teams" style="display:none" class="main-body">
+            teams
         </div>
-        <div class="players">
+        <div id="players" style="display:none" class="main-body">
+            players
         </div>
-        <div class="standings">
+        <div id="standings" style="display:none" class="main-body">
+            standings
         </div>
-        <div class="schedule">
+        <div id="schedule" style="display:none" class="main-body">
+            schedule
         </div>
     </body>
 </html>
